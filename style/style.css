@@ -124,6 +124,29 @@ main{
     padding: 10px;
 }
 .cv-btn{
-    align-items: center;
-    justify-content: center;
+    margin-top: 25px;
+   text-align: center;
+}
+.footer-section{
+    display: flex;
+    gap: 30%;
+    margin: 150px 200px;
+}
+footer input[type="text"]{
+    width: 100%;
+    padding: 10px; background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+footer input[type="email"]{
+    width: 100%;
+    padding: 10px; background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+footer textarea{
+    width: 100%;
+    padding: 10px; background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
