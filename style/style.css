@@ -128,25 +128,18 @@ main{
    text-align: center;
 }
 .footer-section{
-    display: flex;
+    
+    
+}
+footer input[type="text"], footer input[type="email"],footer textarea{
+    width: 100%;
+    padding: 10px; background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.coloums{
     gap: 30%;
-    margin: 150px 200px;
-}
-footer input[type="text"]{
-    width: 100%;
-    padding: 10px; background: rgb(255, 255, 255);
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-footer input[type="email"]{
-    width: 100%;
-    padding: 10px; background: rgb(255, 255, 255);
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-footer textarea{
-    width: 100%;
-    padding: 10px; background: rgb(255, 255, 255);
-    margin-bottom: 20px;
-    border-radius: 10px;
+    padding: 100px 150px;
+    display: flex;
+    align-items: center;
 }
